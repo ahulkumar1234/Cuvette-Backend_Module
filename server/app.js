@@ -9,8 +9,8 @@ const cors = require("cors")
 
 
 app.use(cors({
-  origin: "http://localhost:5173",
-  credentials: true
+    origin: ["http://localhost:5173", "https://book-store-frontend-module.vercel.app"],
+    credentials: true
 }));
 
 connectDB();
