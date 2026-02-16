@@ -22,6 +22,9 @@ A REST API for managing users and books with authentication and authorization.
 - cookie-parser
 - dotenv
 
+## 📄 API Documentation
+Postman Collection: `docs/BookStoreAPI.postman_collection.json`
+
 # 📂 Project Structure
 
 ```
